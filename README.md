@@ -36,7 +36,7 @@ Supported (tested) platforms
 
 Microsoft Windows (MS Visual Studio 8.0, GCC)
 Windows Mobile, Windows CE (MS Visual Studio 8.0)
-UNIX (GCC)
+UNIX (GCC).
 
 Licence: LGPL
 
