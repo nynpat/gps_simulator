@@ -12,10 +12,13 @@ Usage
 * To give dynamic spped and latitude longitude, provide command line argument's as per following.
 
 1 ./gps_v2.0 <kmphspeed>		// Speed should be in multiple of 30 and maximum 180, else default 180 will be taken.
+
 	#./gps_v2.0 60
 2. ./gps_v2.0 <lat> <long>		// Provide lat long first four digits without decimals to give dynamic start location.
+
 	#./gps_v2.0 2342 7200
 3. ./gps_v2.0 <lat> <long> <kmphspeed>	// To give speed and dynamic start location.
+	
 	#./gps_v2.0 2342 7200 90
 	
 Features
