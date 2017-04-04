@@ -17,7 +17,7 @@ Usage
 	
 2. ./gps_v2.0 <lat> <long>
 
-#./gps_v2.0 2342 7200		// Provide lat long first four digits without decimals to give dynamic start location.
+# ./gps_v2.0 2342 7200		// Provide lat long first four digits without decimals to give dynamic start location.
 	
 3. ./gps_v2.0 <lat> <long> <kmphspeed>
 
