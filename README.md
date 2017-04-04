@@ -10,15 +10,15 @@ This producer application will broadcast NMEA string at a second interval. Based
 Use build.sh library to create GPS simulator application for. It will create gps_v2.0 binary.
 To give dynamic spped and latitude longitude, provide command line argument's as per following.
 
-./gps_v2.0 kmphspeed		// Speed should be in multiple of 30 and maximum 180, else default 180 will be taken.
+#./gps_v2.0 kmphspeed				// Speed should be in multiple of 30 and maximum 180, else default 180 will be taken.
 
 	#./gps_v2.0 60
 
-./gps_v2.0 lat long		// Provide lat long first four digits without decimals to give dynamic start location.
+#./gps_v2.0 lat long				// Provide lat long first four digits without decimals to give dynamic start location.
 
 	#./gps_v2.0 2342 7200
 	
-./gps_v2.0 lat long kmphspeed	// To give speed and dynamic start location.
+#./gps_v2.0 lat long kmphspeed			// To give speed and dynamic start location.
 
 	#./gps_v2.0 2342 7200 90
 	
